@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,8 +33,8 @@ const products = [
 ];
 root.render(
   <React.StrictMode>
-    <App items={items} />
-    <App items={products} />
+    <App />
+    <Home />
   </React.StrictMode>
 );
 
