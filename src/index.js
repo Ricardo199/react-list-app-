@@ -19,9 +19,21 @@ const items = [
   "1 cup milk",
   "2 cups chocolate chips"
 ];
+
+const products = [
+  "Car",
+  "Butter",
+  "Meat",
+  "sugar",
+  "eggs",
+  "flour",
+  "powder",
+  "salt"
+];
 root.render(
   <React.StrictMode>
     <App items={items} />
+    <App items={products} />
   </React.StrictMode>
 );
 
