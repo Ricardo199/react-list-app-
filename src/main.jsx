@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const items = [
-  "1 cup unslated butter, at room temperature",
+  "1 cup unsalted butter, at room temperature",
   "1 cup sugar",
   "1/2 cup brown sugar",
   "2 large eggs",
@@ -36,8 +35,3 @@ root.render(
     <App items={products} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
