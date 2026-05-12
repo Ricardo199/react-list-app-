@@ -6,7 +6,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const items = [
-  "1 cup unslated butter, at room temperature",
+  "1 cup unsalted butter, at room temperature",
   "1 cup sugar",
   "1/2 cup brown sugar",
   "2 large eggs",
